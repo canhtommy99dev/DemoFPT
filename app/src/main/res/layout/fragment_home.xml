@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment"
+    android:background="@drawable/background">
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+         android:layout_height="match_parent"
+        android:layout_width="wrap_content">
+        <TextView
+            android:gravity="center"
+            android:textColor="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DDSQG"
+            android:textSize="30dp"/>
+        <TextView
+            android:textColor="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Duplicate Detection and Self-Generation Question"
+            android:textSize="20dp"/>
+        <TextView
+            android:textColor="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="An application used to duplicate detection and self-generation of questions based on answers in the final exam question bank (FE) using artificial intelligence (AI) technology in natural language processing (NLP)"
+            android:textSize="20dp"/>
+        <Button
+            android:id="@+id/containedButton3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Duplication"
+            />
+        <Button
+            android:id="@+id/containedButton4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Self-Generation Question"
+            />
+    </LinearLayout>
+</LinearLayout>
